@@ -49,7 +49,7 @@ time.sleep(3)
 click_to_check = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div[2]/div/form/div[2]/div/div/button")
 click_to_check.click()
 
-# Waiting "loading" to disapear -> all token loaded
+# Waiting "loading" to disappear -> all token loaded
 loading_element1 = WebDriverWait(driver, 240).until(EC.presence_of_element_located((By.XPATH,"/html/body/div/div/div/div/div[2]/div/div[3]/div[3]/div[1]/div[1]/div/div[2]/p[2]"))) 
 WebDriverWait(driver, 240).until(EC.staleness_of(loading_element1))
 
@@ -88,7 +88,7 @@ for x in adr:
     time.sleep(1)
     paste_coin_address.send_keys(Keys.ENTER)
     
-    # Waiting "loading" to disapear -> all token loaded                
+    # Waiting "loading" to disappear -> all token loaded                
     loading_element1 = WebDriverWait(driver, 240).until(EC.presence_of_element_located((By.XPATH,"/html/body/div/div/div/div/div[2]/div/div[3]/div[3]/div[1]/div[1]/div/div[2]/p[2]"))) 
     WebDriverWait(driver, 240).until(EC.staleness_of(loading_element1))
     
