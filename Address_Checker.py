@@ -17,7 +17,7 @@ separator = 60*"="
 #=======================================================================================
 
 # setting for Linux
-# driver_path = '/home/shereshevsky/Downloads/chromedriver'
+# driver_path = 'put your driver path here'
 # brave_path = '/usr/bin/brave-browser'
 # s = Service(driver_path)
 # option = webdriver.ChromeOptions()
