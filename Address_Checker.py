@@ -10,8 +10,8 @@ from addresses import adr
 import time
 
 #=================================settings==============================================
-logs_with_balance = ""  # insert a path in which will be stored addresses WITH balance
-logs_without_balance = "" # insert a path in which will be stored addresses WITHOUT balance
+logs_with_balance = ""  # insert a path in which the addresses WITH balance will be stored
+logs_without_balance = "" # insert a path in which the addresses WITHOUT balance will be stored
 balacne_threshold = 100  # USD
 separator = 60*"="
 #=======================================================================================
